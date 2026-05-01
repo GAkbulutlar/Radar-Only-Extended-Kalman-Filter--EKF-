@@ -1,0 +1,55 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# Ninja / Make artifacts
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Visual Studio / MSVC artifacts
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.vcproj
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.exp
+*.lib
+*.dll
+*.exe
+*.manifest
+*.res
+*.ipch
+.vs/
+
+# Logs and runtime output
+*.log
+ekf_log.csv
+
+# Python cache/artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Editors/OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
